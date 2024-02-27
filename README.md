@@ -17,6 +17,20 @@ npm i -g @nest/cli
 ```
 docker-compose up -d
 ```
+5. Clone the file __.env.example__ and rename the __.env__ file.
+
+6. Fill out the missing environment variables
+
+7. Run the app in ```Dev```:
+  ```
+  npm run start:dev
+  ```
+
+8. Run seed
+```
+http://localhost:3000/api/seed
+```
+
 ## 
 * Mongo DB
 * Nest js
