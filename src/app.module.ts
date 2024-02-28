@@ -28,8 +28,4 @@ import { JoiValidationSchema } from './config/joi.validation';
   controllers: [],
   providers: [],
 })
-export class AppModule {
-  constructor() {
-    console.log(process.env);
-  }
-}
+export class AppModule {}

@@ -30,7 +30,6 @@ export class PokemonController {
 
   @Get(':term')
   findOne(@Param('term') term: string) {
-    console.log(term, 'term in controller');
     return this.pokemonService.findOne(term);
   }
 
